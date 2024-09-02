@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#image{
+    margin-top: 110px;
+    border: 10px solid white;
+}
+
+
+h1{
+    font-size: 5rem;
+}

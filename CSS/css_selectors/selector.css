@@ -1,0 +1,32 @@
+.red-change{
+    background-color: red;
+}
+
+.blue-change{
+    background-color: blue;
+}
+
+#first_id{
+    background-color: red;
+    color: white;
+}
+
+#Second_id{
+    background-color: blue;
+    color: yellow;
+
+}
+
+
+p[draggable="true"]{
+    color: pink;
+}
+
+p[draggable="false"]{
+    color: rgb(60, 221, 11);
+}
+
+
+*{
+    color: black;
+}

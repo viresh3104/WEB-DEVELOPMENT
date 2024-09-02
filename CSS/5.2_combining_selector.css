@@ -1,0 +1,28 @@
+h1,h2{
+    color: blueviolet;
+}
+
+
+/* parent > child, this is valid for only one level */
+/* here it searches for p tag in the box class just below it, one level */
+.box > p{
+    color: firebrick;
+}
+
+/* ancestor desendent this check all the levels and if match found then it apply style to it */
+/* here it seraches for the li items in the box class, at all the levels */
+.box li{
+    color: blue;
+} 
+
+/* chaining , this have no space in between the two selectors and starts with the lower level */
+/* here we are using the li tag in the done class */
+li.done{
+    color: seagreen;
+}
+
+/* combining combiners (most complex) */
+/* here im using ancestor decendent in that using the chaining for p.done */
+ul p.done{
+    color: aqua;
+}
