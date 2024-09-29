@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(118, 154, 221);
+    font-family: 'Lobster', cursive;
+
+}
+
+.dice{
+    display: inline-block;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    padding-top: 50px;
+    color: white;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+    margin-top: 100px;
+}
+
+
+img{
+    width: 80%;
+    
+}
+
+footer{
+    margin-top: 14%;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
